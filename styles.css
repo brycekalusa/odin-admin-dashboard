@@ -1,0 +1,190 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#body-grid {
+    display: grid;
+    overflow: auto;
+    height: 100vh;
+    grid-template: 150px 1fr / 1fr 4fr;
+    background-color: white;
+}
+
+#content-div {
+    padding-left: 2%;
+    padding-right: 2%;
+    display: grid;
+    overflow: auto;
+    grid-template: 40px 200px repeat(5, 28px) 200px / repeat(2, minmax(100px, 2fr)) minmax(50px, 1fr);
+    gap: 15px;
+    background-color: #E2E8F0;
+}
+
+#menu-div {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #1992D4;
+    color: white;
+}
+
+#welcome-div {
+    display: grid;
+    grid-template: 50px 100px / repeat(3, 1fr);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#your-projects {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#announcements {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#trending {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+#project-3, #project-4 {
+    grid-row-start: 3;
+    grid-row-end: 8;
+}
+
+#project-5, #project-6 {
+    grid-row-start: 8;
+    grid-row-end: 9;
+}
+
+#announcements-content {
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+#trending-content {
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+
+h4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+button {
+    height: 35px;
+    width: 100px;
+    background-color: #1992D4;
+    color: white;
+    border-radius: 7%;
+    border: none;
+}
+
+#buttons-div {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40%;
+    margin-right: 10%;
+}
+
+input {
+    width: 600px;
+    height: 25px;
+    margin-left: 2%;
+}
+
+#input-div {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    margin-left: 2%;
+}
+
+h2 {
+    margin-left: 6%;
+}
+
+.project-title {
+    margin-left: 2%;
+    font-size: 20px;
+}
+
+p {
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 16px;
+}
+
+.grid-item-1 {
+    border-left: 7px solid orange;
+}
+
+.grid-item-1, .grid-item-2 {
+    background-color: white;
+    box-shadow: 1px 1px 3px;
+}
+
+ul {
+    list-style: none;
+}
+
+#magnify {
+    height: 50px;
+    width: 25px;
+}
+
+#menu-list {
+    font-size: 28px;
+    margin-left: -5%;
+}
+
+#dashboard {
+    font-size: 36px;
+    margin-left: 20%;
+}
+
+.announcements-div {
+    text-align: center;
+}
+
+.announcements-desc {
+    font-size: 12px;
+}
+
+.announcements-title {
+    margin-bottom: -3%;
+}
+
+h5, h6 {
+    margin-left: 10%;
+}
+
+h6 {
+    margin-bottom: -7%;
+}
+
+#name-small-div {
+    text-align: right;
+    margin-right: 5%;
+}
+
+#name-large-div {
+    margin: auto;
+}
